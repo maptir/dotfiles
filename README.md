@@ -7,7 +7,7 @@ sudo apt install curl
 ```
 
 ## Installation:
-...Run this code on your terminal.
+⋅⋅⋅ Run this code on your terminal.
 
 ```shell
 bash -c "$(curl -LsS https://raw.githubusercontent.com/zepalz/dotfiles/master/starter.sh)"
