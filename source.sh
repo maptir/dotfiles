@@ -20,9 +20,11 @@ install(){
   echoYellow "Checking ${1}..."
   if [ -z "$(command -v ${1})" ]; then
     echoGreen "[ Installing ${1}... ]"
-    apt install ${1}
+    sudo apt install ${1}
     echoGreen "[ Done installing ${1} ]"
   else
-    echoGreen "${1} is already install."
+    echoGreen "${1} is already installed."
   fi
 }
+
+echoRed SOURCE
