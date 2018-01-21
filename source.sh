@@ -26,5 +26,3 @@ install(){
     echoGreen "${1} is already installed."
   fi
 }
-
-echoRed SOURCE
