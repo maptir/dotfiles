@@ -2,13 +2,14 @@
 
 You need to install **curl** first for all installation.
 
-```
+```shell
 sudo apt install curl
 ```
 
-Installation: Run this code on your terminal.
+## Installation:
+⋅⋅⋅Run this code on your terminal.
 
-```
+```shell
 bash -c "$(curl -LsS https://raw.githubusercontent.com/zepalz/dotfiles/master/starter.sh)"
 ```
 
