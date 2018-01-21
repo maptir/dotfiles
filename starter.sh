@@ -24,8 +24,8 @@ install gnome-tweak-tool
 if [ "$0" ] && [ "$0" != "bash" ]
 then
   bash -c "
-  source ~/dotfiles/source.sh
-  source ~/dotfiles/$0/install.sh"
+  source ~/dotfiles/source.sh;
+  source ~/dotfiles/$0/install.sh;"
 else
   bash ~/dotfiles/fullpackages.sh
 fi
