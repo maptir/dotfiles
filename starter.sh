@@ -20,8 +20,6 @@ echoGreen "*** Updating apt ***"
 sudo apt update
 mkdir ~/Programs
 
-install gnome-tweak-tool
-
 if [ "$0" ] && [ "$0" != "bash" ]
 then
   bash -c "
