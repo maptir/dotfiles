@@ -16,6 +16,10 @@ echoYellow(){
   printf "${YELLOW}${1}${NC}\n"
 }
 
+echoWhite(){
+  printf "${WHITE}${1}${NC}\n"  
+}
+
 install(){
   echoYellow "Checking ${1}..."
   if [ -z "$(command -v ${1})" ]; then

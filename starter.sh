@@ -14,6 +14,7 @@ fi
 rm -rf ~/dotfiles
 git clone https://github.com/zepalz/dotfiles.git ~/dotfiles
 
+source ~/dotfiles/source.sh;
 echoRed "Start installing ..."
 echoGreen "*** Updating apt ***"
 sudo apt update
@@ -24,7 +25,6 @@ install gnome-tweak-tool
 if [ "$0" ] && [ "$0" != "bash" ]
 then
   bash -c "
-  source ~/dotfiles/source.sh;
   source ~/dotfiles/$0/install.sh;"
 else
   bash ~/dotfiles/fullpackages.sh
