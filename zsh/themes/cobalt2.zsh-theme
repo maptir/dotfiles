@@ -1,4 +1,4 @@
-#
+python#
 # Cobalt2 Theme - https://github.com/wesbos/Cobalt2-iterm
 #
 # # README
