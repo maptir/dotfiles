@@ -17,7 +17,7 @@ echoYellow(){
 }
 
 echoWhite(){
-  printf "${WHITE}${1}${NC}\n"  
+  printf "${WHITE}${1}${NC}\n"
 }
 
 install(){
@@ -29,4 +29,5 @@ install(){
   else
     echoGreen "${1} is already installed."
   fi
+  echo;
 }

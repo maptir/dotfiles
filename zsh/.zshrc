@@ -94,8 +94,8 @@ alias gu="_git_update"
 alias ignore="_create_gitignore"
 alias c="_compile_and_run_c"
 alias myip="_myip"
-alias eclipse="/home/map/.local/share/umake/ide/eclipse/eclipse > /dev/null 2>&1 &"
-alias android="/home/map/.local/share/umake/android/android-studio/bin/studio.sh > /dev/null 2>&1 &"
+alias eclipse="setsid /home/map/.local/share/umake/ide/eclipse/eclipse > /dev/null 2>&1"
+alias android="setsid /home/map/.local/share/umake/android/android-studio/bin/studio.sh > /dev/null 2>&1"
 
 # _git_update [MESSAGE] [BRANCH]
 #
