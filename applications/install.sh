@@ -1,6 +1,7 @@
 echoGreen "*** Installing all applications ***"
 install gnome-tweak-tool
 install skypeforlinux
+install screenfetch
 
 snap install ubuntu-make --classic
 sudo add-apt-repository ppa:lyzardking/ubuntu-make
