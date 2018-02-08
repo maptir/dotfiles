@@ -22,7 +22,6 @@ bash -c "$(curl -LsS https://raw.githubusercontent.com/zepalz/dotfiles/master/st
 - Screenfetch
 - Atom
 - Eclipse
-- Android Studio
 
 Or if you want to install only some of the program you can use this.
 
