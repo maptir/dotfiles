@@ -14,3 +14,5 @@ echo;echo;
 
 source ~/dotfiles/macbuntu/install.sh
 echo;echo;
+
+echoGreen "Install complete please restart your computer."
