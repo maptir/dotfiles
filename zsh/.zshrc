@@ -4,6 +4,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
+# added by Anaconda2 installer
+# export PATH="/home/map/Programs/anaconda2/bin:$PATH"
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -75,7 +78,7 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-screenfetch -A "DISTRO"
+screenfetch -EA "DISTRO"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -83,13 +86,12 @@ screenfetch -A "DISTRO"
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias text="open -e"
 alias ohmyzsh="setsid gedit ~/.oh-my-zsh"
 alias config="setsid gedit ~/.zshrc"
 alias reload="source ~/.zshrc"
-alias eclipse="setsid /home/map/.local/share/umake/ide/eclipse/eclipse > /dev/null 2>&1"
-alias android="setsid /home/map/.local/share/umake/android/android-studio/bin/studio.sh > /dev/null 2>&1"
-alias intellij="setsid /home/map/Programs/idea-IU-173.4127.27/bin/idea.sh > /dev/null 2>&1"
-alias open="setsid nautilus . > /dev/null 2>&1"
+alias eclipse="setsid ~/.local/share/umake/ide/eclipse/eclipse > /dev/null 2>&1"
+alias android="setsid ~/Programs/android-studio/bin/studio.sh > /dev/null 2>&1"
+alias intellij="setsid ~/Programs/idea-IU-173.4127.27/bin/idea.sh > /dev/null 2>&1"
+alias open="gvfs-open > /dev/null 2>&1"
+alias emptytrash="rm -rf ~/.local/share/Trash/*"
