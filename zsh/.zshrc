@@ -5,7 +5,7 @@
 export ZSH=~/.oh-my-zsh
 
 # added by Anaconda2 installer
-# export PATH="/home/map/Programs/anaconda2/bin:$PATH"
+export PATH="/home/map/Programs/anaconda2/bin:$PATH"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
