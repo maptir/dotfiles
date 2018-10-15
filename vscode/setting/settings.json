@@ -1,0 +1,35 @@
+{
+    "window.zoomLevel": 2,
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "editor.scrollBeyondLastLine": false,
+    "emmet.triggerExpansionOnTab": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "editor.occurrencesHighlight": false,
+    "colorize.languages": [
+        "javascript",
+        "css",
+        "sass",
+        "scss",
+        "less",
+        "postcss",
+        "sss",
+        "stylus",
+        "xml",
+        "svg"
+    ],
+    "editor.tabSize": 2,
+    "typescript.validate.enable": false,
+    "python.pythonPath": "/usr/bin/python3",
+    "highlight-matching-tag.style": {
+        "borderWidth": "0 0 1px 0",
+        "borderStyle": "solid",
+        "borderColor": "rgb(51,102,153)",
+        "backgroundColor": "rgba(51,102,153,0.2)"
+    },
+    "highlight-matching-tag.leftStyle": null,
+    "highlight-matching-tag.rightStyle": null,
+    "breadcrumbs.enabled": true,
+}

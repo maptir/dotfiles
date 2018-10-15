@@ -1,17 +1,15 @@
 echoGreen "*** Installing all applications ***"
 install gnome-tweak-tool
-install skypeforlinux
 install screenfetch
 install default-jdk
 install default-jre
 
-snap install ubuntu-make --classic
-sudo add-apt-repository ppa:lyzardking/ubuntu-make
-sudo add-apt-repository ppa:webupd8team/atom
-sudo apt update
-install ubuntu-make
-
-install atom
-apm install --packages-file ~/dotfiles/applications/atom_packages.txt
-umake ide eclipse
+sudo snap install eclipse --classic
+sudo snap install ubuntu-make --classic
+sudo snap install node --channel=10/stable --classic
+sudo snap install postman
+sudo snap install spotify
+sudo snap install discord
+sudo snap install vlc
+sudo snap install telegram-desktop
 echoGreen "*** All applications is ready ***"
