@@ -1,5 +1,5 @@
 echoGreen "*** Installing VSCODE ***"
-sudo snap install vscode --classic
+sudo snap install code --classic
 
 code --install-extension kamikillerto.vscode-colorize
 code --install-extension peterjausovec.vscode-docker
