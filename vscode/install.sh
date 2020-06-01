@@ -17,6 +17,8 @@ code --install-extension mrmlnc.vscode-stylefmt
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension arthurwang.vsc-prolog
 code --install-extension jpoissonnier.vscode-styled-components
+code --install-extension esbenp.prettier-vscode
+code --install-extension CoenraadS.bracket-pair-colorizer
 
 cat ~/dotfiles/vscode/setting/settings.json > ~/.config/Code/User/settings.json
 echoGreen "*** All VSCODE extension is installed ***"
